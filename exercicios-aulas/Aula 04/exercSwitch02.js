@@ -1,4 +1,4 @@
-const vogal = "a";
+const vogal = "z";
 
 switch (vogal){
     case "a":
@@ -6,9 +6,9 @@ switch (vogal){
     case "i":
     case "o":
     case "u":
-        console.log(`A letra "${vogal}" é uma vogal!`)       
+        console.log("É uma vogal")       
         break
     default:
-        console.log(`A letra "${vogal}" é uma consoante!`)
+        console.log("É uma consoante")
         break
 }
