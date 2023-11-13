@@ -1,10 +1,11 @@
-const numeroAleatorio = 20;
+const numeroAleatorio = Math.floor(Math.random() * 10) + 1;
+
 let count = 0;
 let numero = null;
 let verificacao = false;
 
 while(count < 5){
-    numero = Number(prompt("Digite um numero: "))
+    numero = Number(prompt("Digite um numero de 0 a 10: "))
     count++;
     console.log(count)
     if(numero === numeroAleatorio){
