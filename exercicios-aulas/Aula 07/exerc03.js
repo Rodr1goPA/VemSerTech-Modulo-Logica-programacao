@@ -52,6 +52,13 @@ function tabuleiroDoJogo(jogoDaVelhaParams) {
   B ${jogoDaVelhaParams[1].B1} ${jogoDaVelhaParams[1].B2} ${jogoDaVelhaParams[1].B3}
   C ${jogoDaVelhaParams[2].C1} ${jogoDaVelhaParams[2].C2} ${jogoDaVelhaParams[2].C3}   
   `)
+
+  alert(`
+  1 2 3
+A ${jogoDaVelhaParams[0].A1} ${jogoDaVelhaParams[0].A2} ${jogoDaVelhaParams[0].A3}
+B ${jogoDaVelhaParams[1].B1} ${jogoDaVelhaParams[1].B2} ${jogoDaVelhaParams[1].B3}
+C ${jogoDaVelhaParams[2].C1} ${jogoDaVelhaParams[2].C2} ${jogoDaVelhaParams[2].C3}   
+`)
 }
 
 function inputJogador (jogador1 , jogador2) {
@@ -138,3 +145,4 @@ function verificacaoGanhador(jogoDaVelhaParams, jogadaParams) {
     }
 }
 }
+miniGame()

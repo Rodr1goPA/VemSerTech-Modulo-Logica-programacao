@@ -45,3 +45,4 @@ function calcular(tipo, numero1, numero2) {
 }
 console.log(result)
 }
+calculadora()
